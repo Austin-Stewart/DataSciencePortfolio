@@ -1,12 +1,7 @@
+- 
+-- THIS SCRIPT IS FOR MY JAVA CUSTOMER MANAGEMENT SYSTEM PROJECT--
 -- 
--- THIS SCRIPT ONLY FOR STUDENTS IN THE LATEST VERSION OF THE ASSESSMENT
--- (Start course on/after 9-15-2020 - PLease check with CI if unsure)
--- This script should be run in the MySql Workbench
--- It will reset the data to insert the countries and first level divisions
--- that you should use in the project
--- NOTE: This Script removes EVERYTHING because of the necessary FK dependencies
 -- 
--- questions mark.kinkead@wgu.edu
 -- 
 
 DELETE FROM appointments WHERE Appointment_ID < 10000;
